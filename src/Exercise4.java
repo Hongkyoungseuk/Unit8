@@ -10,8 +10,8 @@ public class Exercise4 {
         n = file.length(); // 파일의 크기
         
         System.out.println(fileName);
-        for (int j = 0; j < n ; j++) {
-            for (int i = 0; i < n ; i++) {
+        for (int j = 1; j <= n ; j++) {
+            for (int i = 1; i <= n ; i++) {
                 System.out.print(i*j + " ");
             }
             System.out.println("");
