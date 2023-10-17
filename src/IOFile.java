@@ -1,8 +1,4 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 
 public class IOFile {
     private String fileName;
@@ -31,6 +27,7 @@ public class IOFile {
 
     public void write(OutputStream os) {
         //TODO 파일의 내용을 os에 기록하는 것;
+        
 
         
 
