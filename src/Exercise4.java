@@ -2,12 +2,9 @@ import java.io.File;
 
 public class Exercise4 {
     
-
-    public static void multipTable(File file) {
+    public static void multipTable(File file, int n) {
         String fileName;
-        long n;
         fileName = file.getName(); // 파일의 이름 "~~.~~""
-        n = file.length(); // 파일의 크기
         
         System.out.println(fileName);
         for (int j = 1; j <= n ; j++) {
