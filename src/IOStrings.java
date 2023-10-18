@@ -1,14 +1,8 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.PrintStream;
-import java.io.PrintWriter;
+import java.io.*;
 
 public class IOStrings {
     
-    public String[] loandArray(InputStream is, int n) throws IOException {
+    public String[] loadArray(InputStream is, int n) throws IOException {
         //is에 의해 지정된 입력 채널에서 읽은 n개의 문자열 배열을 반환합니다.
         String[] st = new String[n];
         
@@ -21,10 +15,11 @@ public class IOStrings {
     }
 
     public void saveArray(OutputStream os, String[] sa) {
-        PrintStream ps = new PrintStream(os);
-        PrintWriter pw = new PrintWriter(os);   // or
+        // os에 의해 지정된 출력 채널에 문자열 sa의 배열을 씁니다.
+        PrintWriter pw = new PrintWriter(os);   
         for (int i = 0 ; i < sa.length ; i++) {
-            ps.println(ps);
+            pw.println(sa[i]);
         }
+        pw.close();
     }
 }
