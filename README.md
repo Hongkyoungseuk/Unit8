@@ -36,5 +36,10 @@
     BufferedReader 객체를 매개 변수로 취하고, 채널에서 아파트에 대한 데이터(s saveToFile에 의해 작성된 대로 구성됨을 읽고, 아파트를 구성하고 반환하는 공개 정적 메서드
     readFromFile을 추가하십시오. 그런 다음, 파일 이름을 매개 변수로 취하고 파일에 있는 아파트에 대한 모든 정보를비디오에 인쇄하는 클래스 {아파트}의 클라이언트인 정적 메서드를 작성하십시오.
     */
-// Exercise_9 TODO
-        
+// Exercise_9 TODO 80%
+    // 실수의 2차원 행렬을 나타내는 자바 클래스 Matrix를 실현하세요.
+    // Matrix(int n, int m) : 모든 값이 처음에 0으로 설정된 n*m크기의 행렬을 만드는 생성자  
+    // void save(String filename) : filename으로 지정된 파일에 행렬의 내용을 저장합니다.
+    // static Matrix read(String filename) : filename으로 지정된 파일에서 행렬에 대한 데이터를 읽고 행렬을 만들고 반환합니다.
+    // Matrix sum(Matrix m) : 행열이 같으면 행열들을 합합니다. 그렇지않으면 null
+    // Matrix product(Matrix m) : 행열이 같으면 행열들을 곱합니다. 그렇지 않으면 null

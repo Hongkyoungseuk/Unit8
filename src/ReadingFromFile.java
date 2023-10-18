@@ -6,11 +6,11 @@ public class ReadingFromFile {
         FileReader fr = new FileReader("text.txt");
         // creation of the object for reading
         BufferedReader in = new BufferedReader(fr);
-
+        
         // reading a line of text from the file
         String line = in.readLine();
         System.out.println(line);
-
+        
         // closing the file
         fr.close();
         

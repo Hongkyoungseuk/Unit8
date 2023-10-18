@@ -11,7 +11,6 @@ public class HandleBA {
     public void HandleBAs(String filename) {
         //TODO
         
-        
     }
 
     public void interests(double rate) {
